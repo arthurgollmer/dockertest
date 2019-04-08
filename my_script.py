@@ -2,5 +2,5 @@ from pystrich.datamatrix import DataMatrixEncoder
 
 encoder = DataMatrixEncoder('This is a DataMatrix.')
 encoder.save('./datamatrix_test.png')
-print("Dockertest now....")
+print("Dockertest heute....")
 print(encoder.get_ascii())
